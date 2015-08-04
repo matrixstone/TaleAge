@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BCAD5A31B716BB900215051 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCAD5A21B716BB900215051 /* main.m */; };
+		8BCAD5A61B716BB900215051 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCAD5A51B716BB900215051 /* AppDelegate.m */; };
+		8BCAD5A91B716BB900215051 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCAD5A81B716BB900215051 /* ViewController.m */; };
+		8BCAD5AC1B716BB900215051 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BCAD5AA1B716BB900215051 /* Main.storyboard */; };
+		8BCAD5AE1B716BB900215051 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BCAD5AD1B716BB900215051 /* Images.xcassets */; };
+		8BCAD5B11B716BB900215051 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BCAD5AF1B716BB900215051 /* LaunchScreen.xib */; };
+		8BCAD5BD1B716BB900215051 /* TaleAgeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BCAD5BC1B716BB900215051 /* TaleAgeTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BCAD5B71B716BB900215051 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BCAD5951B716BB900215051 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BCAD59C1B716BB900215051;
+			remoteInfo = TaleAge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BCAD59D1B716BB900215051 /* TaleAge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaleAge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCAD5A11B716BB900215051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BCAD5A21B716BB900215051 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BCAD5A41B716BB900215051 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8BCAD5A51B716BB900215051 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8BCAD5A71B716BB900215051 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8BCAD5A81B716BB900215051 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8BCAD5AB1B716BB900215051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BCAD5AD1B716BB900215051 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BCAD5B01B716BB900215051 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8BCAD5B61B716BB900215051 /* TaleAgeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaleAgeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BCAD5BB1B716BB900215051 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BCAD5BC1B716BB900215051 /* TaleAgeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaleAgeTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BCAD59A1B716BB900215051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCAD5B31B716BB900215051 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BCAD5941B716BB900215051 = {
+			isa = PBXGroup;
+			children = (
+				8BCAD59F1B716BB900215051 /* TaleAge */,
+				8BCAD5B91B716BB900215051 /* TaleAgeTests */,
+				8BCAD59E1B716BB900215051 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BCAD59E1B716BB900215051 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BCAD59D1B716BB900215051 /* TaleAge.app */,
+				8BCAD5B61B716BB900215051 /* TaleAgeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BCAD59F1B716BB900215051 /* TaleAge */ = {
+			isa = PBXGroup;
+			children = (
+				8BCAD5A41B716BB900215051 /* AppDelegate.h */,
+				8BCAD5A51B716BB900215051 /* AppDelegate.m */,
+				8BCAD5A71B716BB900215051 /* ViewController.h */,
+				8BCAD5A81B716BB900215051 /* ViewController.m */,
+				8BCAD5AA1B716BB900215051 /* Main.storyboard */,
+				8BCAD5AD1B716BB900215051 /* Images.xcassets */,
+				8BCAD5AF1B716BB900215051 /* LaunchScreen.xib */,
+				8BCAD5A01B716BB900215051 /* Supporting Files */,
+			);
+			path = TaleAge;
+			sourceTree = "<group>";
+		};
+		8BCAD5A01B716BB900215051 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BCAD5A11B716BB900215051 /* Info.plist */,
+				8BCAD5A21B716BB900215051 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BCAD5B91B716BB900215051 /* TaleAgeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BCAD5BC1B716BB900215051 /* TaleAgeTests.m */,
+				8BCAD5BA1B716BB900215051 /* Supporting Files */,
+			);
+			path = TaleAgeTests;
+			sourceTree = "<group>";
+		};
+		8BCAD5BA1B716BB900215051 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BCAD5BB1B716BB900215051 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BCAD59C1B716BB900215051 /* TaleAge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BCAD5C01B716BB900215051 /* Build configuration list for PBXNativeTarget "TaleAge" */;
+			buildPhases = (
+				8BCAD5991B716BB900215051 /* Sources */,
+				8BCAD59A1B716BB900215051 /* Frameworks */,
+				8BCAD59B1B716BB900215051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TaleAge;
+			productName = TaleAge;
+			productReference = 8BCAD59D1B716BB900215051 /* TaleAge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BCAD5B51B716BB900215051 /* TaleAgeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BCAD5C31B716BB900215051 /* Build configuration list for PBXNativeTarget "TaleAgeTests" */;
+			buildPhases = (
+				8BCAD5B21B716BB900215051 /* Sources */,
+				8BCAD5B31B716BB900215051 /* Frameworks */,
+				8BCAD5B41B716BB900215051 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BCAD5B81B716BB900215051 /* PBXTargetDependency */,
+			);
+			name = TaleAgeTests;
+			productName = TaleAgeTests;
+			productReference = 8BCAD5B61B716BB900215051 /* TaleAgeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BCAD5951B716BB900215051 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Xu He";
+				TargetAttributes = {
+					8BCAD59C1B716BB900215051 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					8BCAD5B51B716BB900215051 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 8BCAD59C1B716BB900215051;
+					};
+				};
+			};
+			buildConfigurationList = 8BCAD5981B716BB900215051 /* Build configuration list for PBXProject "TaleAge" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BCAD5941B716BB900215051;
+			productRefGroup = 8BCAD59E1B716BB900215051 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BCAD59C1B716BB900215051 /* TaleAge */,
+				8BCAD5B51B716BB900215051 /* TaleAgeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BCAD59B1B716BB900215051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCAD5AC1B716BB900215051 /* Main.storyboard in Resources */,
+				8BCAD5B11B716BB900215051 /* LaunchScreen.xib in Resources */,
+				8BCAD5AE1B716BB900215051 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCAD5B41B716BB900215051 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BCAD5991B716BB900215051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCAD5A91B716BB900215051 /* ViewController.m in Sources */,
+				8BCAD5A61B716BB900215051 /* AppDelegate.m in Sources */,
+				8BCAD5A31B716BB900215051 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BCAD5B21B716BB900215051 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BCAD5BD1B716BB900215051 /* TaleAgeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BCAD5B81B716BB900215051 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BCAD59C1B716BB900215051 /* TaleAge */;
+			targetProxy = 8BCAD5B71B716BB900215051 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BCAD5AA1B716BB900215051 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BCAD5AB1B716BB900215051 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BCAD5AF1B716BB900215051 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BCAD5B01B716BB900215051 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BCAD5BE1B716BB900215051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8BCAD5BF1B716BB900215051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BCAD5C11B716BB900215051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaleAge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BCAD5C21B716BB900215051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TaleAge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BCAD5C41B716BB900215051 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaleAgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaleAge.app/TaleAge";
+			};
+			name = Debug;
+		};
+		8BCAD5C51B716BB900215051 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TaleAgeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TaleAge.app/TaleAge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BCAD5981B716BB900215051 /* Build configuration list for PBXProject "TaleAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCAD5BE1B716BB900215051 /* Debug */,
+				8BCAD5BF1B716BB900215051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BCAD5C01B716BB900215051 /* Build configuration list for PBXNativeTarget "TaleAge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCAD5C11B716BB900215051 /* Debug */,
+				8BCAD5C21B716BB900215051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BCAD5C31B716BB900215051 /* Build configuration list for PBXNativeTarget "TaleAgeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BCAD5C41B716BB900215051 /* Debug */,
+				8BCAD5C51B716BB900215051 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BCAD5951B716BB900215051 /* Project object */;
+}
